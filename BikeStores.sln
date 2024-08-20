@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStores.API", "BikeStores.API\BikeStores.API.csproj", "{B4B16EBB-3E5D-406D-9EAC-CB5D40254EEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeStores.API", "BikeStores.API\BikeStores.API.csproj", "{B4B16EBB-3E5D-406D-9EAC-CB5D40254EEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStores.Domain", "BikeStores.Domain\BikeStores.Domain.csproj", "{6F15A4B0-8444-4A6C-94D7-DBC397C2799B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeStores.Domain", "BikeStores.Domain\BikeStores.Domain.csproj", "{6F15A4B0-8444-4A6C-94D7-DBC397C2799B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStores.Infrastructure", "BikeStores.Infrastructure\BikeStores.Infrastructure.csproj", "{4523E7D6-DBB3-4576-9039-1FF7B74B1A4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeStores.Infrastructure", "BikeStores.Infrastructure\BikeStores.Infrastructure.csproj", "{4523E7D6-DBB3-4576-9039-1FF7B74B1A4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStores.Application", "BikeStores.Application\BikeStores.Application.csproj", "{D322458E-8445-4D76-BF69-85D9560BD781}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeStores.Application", "BikeStores.Application\BikeStores.Application.csproj", "{D322458E-8445-4D76-BF69-85D9560BD781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStores.Test", "BikeStores.Test\BikeStores.Test.csproj", "{67A47CFA-52FB-40CF-AE4A-9EB0CC90FD30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D322458E-8445-4D76-BF69-85D9560BD781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D322458E-8445-4D76-BF69-85D9560BD781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D322458E-8445-4D76-BF69-85D9560BD781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A47CFA-52FB-40CF-AE4A-9EB0CC90FD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A47CFA-52FB-40CF-AE4A-9EB0CC90FD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A47CFA-52FB-40CF-AE4A-9EB0CC90FD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A47CFA-52FB-40CF-AE4A-9EB0CC90FD30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

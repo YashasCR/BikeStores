@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
+using Microsoft.Extensions.DependencyInjection;
+
 
 var builder = WebApplication.CreateBuilder(args);
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
@@ -15,10 +18,10 @@ var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").B
 
 // Add services to the container.
 
+/*builder.Services.AddMediatR(Assembly.GetExecutingAssembly());*/
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-
 
 
 builder.Services.AddSwaggerGen();
