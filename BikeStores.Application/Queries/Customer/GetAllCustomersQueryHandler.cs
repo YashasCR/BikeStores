@@ -14,10 +14,10 @@ namespace BikeStores.Application.Queries.Customer
     {
         private readonly ICustomerService _customerService;
 
-
-        public GetAllCustomersQueryHandler(ICustomerService customerService, IMapper mapper)
+        public GetAllCustomersQueryHandler(ICustomerService customerService)
         {
             _customerService = customerService;
+
         }
 
         public async Task<IEnumerable<CustomerDTO>> Handle(GetAllCustomersQuery request, CancellationToken cancellationToken)
