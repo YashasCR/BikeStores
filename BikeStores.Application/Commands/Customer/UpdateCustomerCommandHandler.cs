@@ -13,12 +13,10 @@ namespace BikeStores.Application.Commands.Customer
     public class UpdateCustomerCommandHandler : IRequestHandler<UpdateCustomerCommand, string>
     {
         private readonly ICustomerService _customerService;
-        private readonly IMapper _mapper;
 
-        public UpdateCustomerCommandHandler(ICustomerService customerService, IMapper mapper)
+        public UpdateCustomerCommandHandler(ICustomerService customerService)
         {
             _customerService = customerService;
-            _mapper = mapper;
         }
 
         public async Task<string> Handle(UpdateCustomerCommand request, CancellationToken cancellationToken)
